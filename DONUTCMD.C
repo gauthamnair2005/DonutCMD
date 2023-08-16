@@ -8,7 +8,8 @@ int main(void)
 	char command[30];
 	int result;
 	char color[4];
-	printf("DonutCMD\n");
+	clrscr();
+	printf("DonutCMD v23.8.16\n");
 	printf("Gautham Nair\n");
 	printf("--------------------------------\n");
 	result = strcmp(command,"exit");
@@ -19,7 +20,7 @@ int main(void)
 		fflush(stdin);
 		if (strcmp(command, "about") == 0)
 		{
-			printf("DonutCMD\n");
+			printf("DonutCMD v23.8.16\n");
 			printf("By Gautham Nair\n");
 		}
 		else if (strcmp(command, "exit") == 0)
@@ -69,7 +70,7 @@ int main(void)
 		else if (strcmp(command, "giuc --ver") == 0)
 		{ 
 			printf("Gautham's Important Utility Collection\n");
-			printf("GIUC v0.0.1\n");
+			printf("GIUC v23.8.16\n");
 		}
 		else if (strcmp(command, "giuc") == 0)
 		{
@@ -80,7 +81,7 @@ int main(void)
 			printf("GIUC Help\n");
 			printf("----------------\n");
 			printf("GIUC stands for Gautham's Important Utility Collection, it is basically a collection of important or necessary utilities like age calculator, simple interest calculator, etc\n");
-			printf("Just type `giuc` in DonutCMD prompt and then type numbers representing different utilities.\n");
+			printf("Just type `giuc` in DonutCMD prompt and then type numbers representing different utilities. GIUC is updated weekly along with DonutCMD..!\n");
 		}
 		else if (strcmp(command, "clear --help") == 0)
 		{
