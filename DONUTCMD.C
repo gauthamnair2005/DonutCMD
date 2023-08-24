@@ -8,7 +8,7 @@ int main(void)
 	char command[30];
 	int result;
 	char color[4];
-	clrscr();
+	system("cls");
 	printf("DonutCMD v23.8.24\n");
 	printf("Gautham Nair\n");
 	printf("--------------------------------\n");
@@ -99,7 +99,7 @@ int main(void)
 		}
 		else if (strcmp(command, "clear") == 0)
 		{
-			clrscr();
+			system("cls");
 		}
 		else
 		{
