@@ -9,7 +9,7 @@ int main(void)
 	int result;
 	char color[4];
 	clrscr();
-	printf("DonutCMD v23.8.16\n");
+	printf("DonutCMD v23.8.24\n");
 	printf("Gautham Nair\n");
 	printf("--------------------------------\n");
 	result = strcmp(command,"exit");
@@ -20,7 +20,7 @@ int main(void)
 		fflush(stdin);
 		if (strcmp(command, "about") == 0)
 		{
-			printf("DonutCMD v23.8.16\n");
+			printf("DonutCMD v23.8.24\n");
 			printf("By Gautham Nair\n");
 		}
 		else if (strcmp(command, "exit") == 0)
@@ -70,7 +70,7 @@ int main(void)
 		else if (strcmp(command, "giuc --ver") == 0)
 		{ 
 			printf("Gautham's Important Utility Collection\n");
-			printf("GIUC v23.8.16\n");
+			system("giuc -v");
 		}
 		else if (strcmp(command, "giuc") == 0)
 		{

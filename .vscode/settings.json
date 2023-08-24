@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.asmpp": "search-result",
+        "DONUTCMD.C": "cpp"
+    }
+}
